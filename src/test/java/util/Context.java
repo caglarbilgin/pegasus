@@ -10,8 +10,6 @@ import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.List;
-
 import static mapping.Mapper.foundActivity;
 
 public class Context extends BaseTest {
@@ -36,8 +34,11 @@ public class Context extends BaseTest {
     }
 
     public static void checkElementsTextEquals(String incomingElement, String expectedElement) {
+
         MobileElement element = driver.findElement(Mapper.foundActivity(MapMethodType.IS_ELEMENT, incomingElement));
         String elementText = element.getText().toLowerCase();
+        log.info("expected element : " + expectedElement);
+        log.info("incoming element : " + elementText);
         try {
             Assert.assertEquals(elementText, expectedElement.toLowerCase());
             log.info(elementText + " ve " + expectedElement.toLowerCase() + " elementleri eşit");
@@ -56,18 +57,21 @@ public class Context extends BaseTest {
         int swipeStartHeight = (height * 70) / 100;
         int swipeEndHeight = (height * 30) / 100;
         TouchAction action = new TouchAction(driver);
-        action.press(PointOption.point(swipeStartWidth,swipeStartHeight)).waitAction().moveTo(PointOption.point(swipeEndWidth,swipeEndHeight)).release().perform();
+        action.press(PointOption.point(swipeStartWidth, swipeStartHeight)).waitAction().moveTo(PointOption.point(swipeEndWidth, swipeEndHeight)).release().perform();
     }
 
     public static void swipeUpUntilSeeElement(String ticket) {
+
         for (int i = 0; i < 25; i++) {
-            try {
-                driver.findElement(foundActivity(MapMethodType.SELECT_ELEMENT, ticket)).isDisplayed();
-                log.info(ticket + "element does not visible");
+            String element = driver.findElement(Mapper.foundActivity(MapMethodType.IS_ELEMENT, ticket)).getText();
+            if (element.equals("23:50")) {
+                log.info(ticket + "element exists");
                 break;
-            } catch (Exception ex) {
+            } else {
+                log.info(i+1 +". swipe yapılıyor");
                 Context.swipeUpAccordingToPhoneSize();
             }
+
         }
     }
 }

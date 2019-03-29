@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3965b78-7c66-4680-84c1-dc6c476dcde6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TicketPurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapJSON/click_element.json" beforeDir="false" afterPath="$PROJECT_DIR$/mapJSON/click_element.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapJSON/is_element.json" beforeDir="false" afterPath="$PROJECT_DIR$/mapJSON/is_element.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapJSON/select_element.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/TicketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/TicketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mapping/MapMethodType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mapping/MapMethodType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mapping/Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mapping/Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Context.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,25 +38,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="3350" />
-          <entry key="json" value="271" />
+          <entry key="java" value="3655" />
+          <entry key="json" value="320" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3350" />
-          <entry key="JSON" value="271" />
+          <entry key="JAVA" value="3655" />
+          <entry key="JSON" value="320" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="19" />
+          <entry key="class" value="20" />
           <entry key="iml" value="2" />
-          <entry key="java" value="48" />
-          <entry key="json" value="10" />
+          <entry key="java" value="49" />
+          <entry key="json" value="13" />
           <entry key="log" value="2" />
           <entry key="properties" value="2" />
           <entry key="xml" value="4" />
@@ -54,10 +64,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="19" />
+          <entry key="CLASS" value="20" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="48" />
-          <entry key="JSON" value="10" />
+          <entry key="JAVA" value="49" />
+          <entry key="JSON" value="13" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="4" />
@@ -71,37 +81,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="122" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="122" />
+              <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapJSON/select_element.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="281">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#556#557#0" expanded="true" />
@@ -111,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/TicketPurchaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -126,39 +115,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/android/TicketPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/android/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/mapping/Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="70">
               <caret line="50" selection-start-line="49" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -168,10 +127,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapValue.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/android/TicketPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="423">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="65" column="114" selection-start-line="65" selection-start-column="114" selection-end-line="65" selection-end-column="114" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapJSON/is_element.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapJSON/click_element.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="68" column="78" selection-start-line="68" selection-start-column="78" selection-end-line="68" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/android/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -201,18 +199,18 @@
         <option value="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" />
         <option value="$PROJECT_DIR$/mapJSON/input_elemen.json" />
         <option value="$PROJECT_DIR$/mapJSON/input_element.json" />
-        <option value="$PROJECT_DIR$/mapJSON/click_element.json" />
         <option value="$PROJECT_DIR$/src/test/java/mapping/Mapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/mapJSON/is_element.json" />
-        <option value="$PROJECT_DIR$/src/test/java/android/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/Context.java" />
-        <option value="$PROJECT_DIR$/src/test/java/android/TicketPage.java" />
-        <option value="$PROJECT_DIR$/mapJSON/select_element.json" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TicketPurchaseTest.java" />
+        <option value="$PROJECT_DIR$/mapJSON/select_element.json" />
+        <option value="$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java" />
+        <option value="$PROJECT_DIR$/mapJSON/is_element.json" />
+        <option value="$PROJECT_DIR$/src/test/java/android/TicketPage.java" />
+        <option value="$PROJECT_DIR$/mapJSON/click_element.json" />
+        <option value="$PROJECT_DIR$/src/test/java/util/Context.java" />
+        <option value="$PROJECT_DIR$/src/test/java/android/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -318,7 +316,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553871003247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553896340490" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -343,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.ticketPurchase">
+  <component name="RunManager" selected="JUnit.LoginTest.loginTest">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pegasusTest" />
       <extension name="coverage">
@@ -374,6 +372,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pegasusTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.ticketPurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pegasusTest" />
       <extension name="coverage">
@@ -390,13 +404,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketPurchaseTest.ticketPurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pegasusTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TicketPurchaseTest" />
+      <option name="METHOD_NAME" value="ticketPurchase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.LoginTest.loginApp" />
       <item itemvalue="JUnit.LoginTest.ticketPurchase" />
       <item itemvalue="JUnit.LoginTest" />
+      <item itemvalue="JUnit.TicketPurchaseTest.ticketPurchase" />
+      <item itemvalue="JUnit.LoginTest.loginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest.loginTest" />
+        <item itemvalue="JUnit.TicketPurchaseTest.ticketPurchase" />
         <item itemvalue="JUnit.LoginTest.ticketPurchase" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.loginApp" />
@@ -417,41 +451,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_loginApp - 2019.03.28 at 20h 35m 11s.xml">
-      <configuration name="Test.loginApp" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 22h 45m 15s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_loginApp - 2019.03.28 at 20h 36m 11s.xml">
-      <configuration name="Test.loginApp" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 22h 52m 21s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_loginApp - 2019.03.28 at 20h 41m 55s.xml">
-      <configuration name="Test.loginApp" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 22h 54m 33s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_loginApp - 2019.03.28 at 20h 44m 15s.xml">
-      <configuration name="Test.loginApp" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 22h 59m 50s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test - 2019.03.28 at 20h 45m 37s.xml">
-      <configuration name="Test" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 23h 08m 58s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test - 2019.03.28 at 20h 47m 26s.xml">
-      <configuration name="Test" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 23h 12m 19s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test - 2019.03.28 at 21h 01m 31s.xml">
-      <configuration name="Test" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 23h 17m 14s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ticketPurchase - 2019.03.28 at 21h 14m 24s.xml">
-      <configuration name="Test.ticketPurchase" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 23h 23m 08s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ticketPurchase - 2019.03.28 at 21h 17m 00s.xml">
-      <configuration name="Test.ticketPurchase" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 23h 38m 50s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_ticketPurchase - 2019.03.28 at 21h 21m 31s.xml">
-      <configuration name="Test.ticketPurchase" configurationId="JUnit" />
+    <history-entry file="TicketPurchaseTest_ticketPurchase - 2019.03.29 at 23h 44m 44s.xml">
+      <configuration name="TicketPurchaseTest.ticketPurchase" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.17460318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" sideWeight="0.50102043" side_tool="true" weight="0.17460318" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,12 +495,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38061225" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39591837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
@@ -479,8 +514,8 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17460318" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.17460318" />
+      <window_info id="Structure" order="1" sideWeight="0.50102043" side_tool="true" weight="0.17460318" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -488,12 +523,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38061225" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39591837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4622449" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
@@ -509,6 +544,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/android/TicketPage.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0.jar!/io/appium/java_client/android/AndroidDriver.class">
@@ -633,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -665,6 +705,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="333" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#11597#11598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,20 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapJSON/click_element.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapJSON/is_element.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/ingMobilLog.log" />
     <entry file="file://$PROJECT_DIR$/log/logHistory.log">
       <provider selected="true" editor-type-id="text-editor" />
@@ -774,58 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapJSON/select_element.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="50" selection-start-line="49" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="122" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/android/TicketPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/android/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -839,15 +820,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="270">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="50" selection-start-line="49" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mapping/MapMethodType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapJSON/select_element.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -859,6 +859,56 @@
             <element signature="imports" expanded="true" />
             <element signature="e#522#523#0" expanded="true" />
             <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapJSON/is_element.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapJSON/click_element.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="68" column="78" selection-start-line="68" selection-start-column="78" selection-end-line="68" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="65" column="114" selection-start-line="65" selection-start-column="114" selection-end-line="65" selection-end-column="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/android/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/android/TicketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
           </folding>
         </state>
       </provider>
