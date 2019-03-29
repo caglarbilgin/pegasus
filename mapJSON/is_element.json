@@ -1,0 +1,12 @@
+{
+  "FROM": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+    }
+  },
+  "TO": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/fragment_port_selection_edit_text_to_port"
+    }
+  }
+}

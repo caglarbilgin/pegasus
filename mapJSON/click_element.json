@@ -1,0 +1,57 @@
+{
+  "POPUPCLOSE": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/activity_onboarding_image_view_close"
+    }
+  },
+  "LOGINPAGE": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/activity_home_text_view_login_text"
+    }
+  },
+  "LOGINBUTTON": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/layout_login_expandable_button_login"
+    }
+  },
+  "SEARCHCHEAPFLIGHT": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/activity_home_button_search_flight"
+    }
+  },
+  "ONEWAY": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/right"
+    }
+  },
+  "ISTANBULTUMU": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.TextView"
+    }
+  },
+  "ADANA": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/list_item_port_selection_list_content_text_view"
+    }
+  },
+  "CALENDAR": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+    }
+  },
+  "FLIGHTDATE": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.view.View/android.view.View[2]/android.widget.FrameLayout[7]/android.widget.FrameLayout/android.widget.LinearLayout/android.view.View[1]"
+    }
+  },
+  "OKBUTTON": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/fragment_date_selection_button_approve"
+    }
+  },
+  "SEARCHFLIGHT": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/fragment_search_flight_button_search"
+    }
+  }
+}

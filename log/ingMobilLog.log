@@ -1,0 +1,184 @@
+2019-03-28 17:56:34 INFO  BaseTest:31 - *** PLATFORM : null
+2019-03-28 17:58:21 INFO  BaseTest:31 - *** PLATFORM : null
+2019-03-28 17:58:25 INFO  BaseTest:31 - *** PLATFORM : null
+2019-03-28 18:01:18 INFO  BaseTest:31 - *** PLATFORM : null
+2019-03-28 18:01:47 INFO  BaseTest:31 - *** PLATFORM : null
+2019-03-28 18:02:16 INFO  BaseTest:31 - *** PLATFORM : null
+2019-03-28 18:05:57 INFO  BaseTest:34 - *** PLATFORM : null
+2019-03-28 18:07:47 INFO  BaseTest:32 - *** PLATFORM : null
+2019-03-28 18:08:46 INFO  BaseTest:32 - *** PLATFORM : null
+2019-03-28 18:09:29 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 18:11:41 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:26:17 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:47:42 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:48:34 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:48:59 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:50:32 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:53:48 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:54:25 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:59:22 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 19:59:43 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:05:02 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:05:11 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:06:30 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:07:22 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:07:52 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:09:25 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:10:00 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:10:08 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:10:58 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:12:58 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:14:38 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:14:48 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:15:42 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:16:24 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:20:18 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:21:11 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:22:09 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:23:06 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:25:10 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:27:56 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:28:17 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:31:41 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:33:48 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:34:13 INFO  BaseTest:16 - 554
+2019-03-28 20:34:13 ERROR Mapper:44 - mapJSON/input_element.json (No such file or directory)
+java.io.FileNotFoundException: mapJSON/input_element.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at mapping.Mapper.readJSON(Mapper.java:36)
+	at mapping.Mapper.foundActivity(Mapper.java:61)
+	at util.Context.inputText(Context.java:18)
+	at tests.Test.loginApp(Test.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-03-28 20:34:44 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:35:08 INFO  BaseTest:16 - 554
+2019-03-28 20:35:08 ERROR Mapper:44 - mapJSON/input_element.json (No such file or directory)
+java.io.FileNotFoundException: mapJSON/input_element.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at mapping.Mapper.readJSON(Mapper.java:36)
+	at mapping.Mapper.foundActivity(Mapper.java:61)
+	at util.Context.inputText(Context.java:18)
+	at tests.Test.loginApp(Test.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-03-28 20:35:48 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:36:08 INFO  BaseTest:16 - 554
+2019-03-28 20:36:08 ERROR Mapper:44 - mapJSON/input_element.json (No such file or directory)
+java.io.FileNotFoundException: mapJSON/input_element.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at mapping.Mapper.readJSON(Mapper.java:36)
+	at mapping.Mapper.foundActivity(Mapper.java:61)
+	at util.Context.inputText(Context.java:18)
+	at tests.Test.loginApp(Test.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-03-28 20:40:54 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:41:24 INFO  BaseTest:16 - 554
+2019-03-28 20:41:30 INFO  BaseTest:16 - 2330602
+2019-03-28 20:41:37 INFO  BaseTest:16 - 120304
+2019-03-28 20:43:21 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:43:49 INFO  BaseTest:16 - 554
+2019-03-28 20:43:55 INFO  BaseTest:16 - 2330602
+2019-03-28 20:44:03 INFO  BaseTest:16 - 120304
+2019-03-28 20:44:28 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:44:48 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:45:03 ERROR Mapper:64 - search cheap flight CSS is not found in click_element file for ANDROID
+2019-03-28 20:45:05 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:46:15 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:46:35 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:46:50 ERROR Mapper:64 - search cheap flight CSS is not found in click_element file for ANDROID
+2019-03-28 20:46:53 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:59:29 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 20:59:47 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 21:00:18 INFO  BaseTest:16 - istanbul
+2019-03-28 21:00:45 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 21:01:08 INFO  BaseTest:16 - 554
+2019-03-28 21:01:14 INFO  BaseTest:16 - 2330602
+2019-03-28 21:01:20 INFO  BaseTest:16 - 120304
+2019-03-28 21:13:39 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 21:14:05 INFO  BaseTest:16 - istanbul
+2019-03-28 21:15:50 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 21:16:16 INFO  BaseTest:16 - istanbul
+2019-03-28 21:16:27 INFO  BaseTest:16 - adana
+2019-03-28 21:20:34 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-28 21:21:01 INFO  BaseTest:16 - istanbul
+2019-03-28 21:21:10 INFO  BaseTest:16 - adana
