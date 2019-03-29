@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import tests.Test;
+import tests.LoginTest;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -44,6 +44,6 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(15L, TimeUnit.SECONDS);
     }
     public void tearDown() throws IOException {
-        Test.driver.quit();
+        LoginTest.driver.quit();
     }
 }

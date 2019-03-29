@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 
 
-public class Test extends BaseTest {
+public class LoginTest extends BaseTest {
     private WebDriverWait wait;
 
     @Before
@@ -28,12 +28,8 @@ public class Test extends BaseTest {
     }
 
     @org.junit.Test
-    public void ticketPurchase() {
-        TicketPage.ticket("Istanbul Tümü", "adana");
-    }
-
-    @org.junit.Test
     public void logout(){
+        LoginPage.loginApp("","");
         LoginPage.logoutApp();
     }
 
