@@ -29,7 +29,7 @@ public class LoginTest extends BaseTest {
 
     @org.junit.Test
     public void logout(){
-        LoginPage.loginApp("","");
+        LoginPage.loginApp("5542330602","120304");
         LoginPage.logoutApp();
     }
 

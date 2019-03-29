@@ -17,7 +17,9 @@ public class LoginPage {
         Context.clickButton("LOGINBUTTON");
     }
 
-    public static void logoutApp(){
-
+    public static void logoutApp() {
+        Context.clickButton("USERNAME");
+        Context.swipeUp(3);
+        Context.clickButton("LOGOUT");
     }
 }

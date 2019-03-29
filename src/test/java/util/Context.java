@@ -74,6 +74,13 @@ public class Context extends BaseTest {
 
         }
     }
+
+    public static void swipeUp(int i) {
+        for (int j = 0; j < i; j++) {
+            Context.swipeUpAccordingToPhoneSize();
+        }
+        log.info(driver.getPageSource());
+    }
 }
 
 

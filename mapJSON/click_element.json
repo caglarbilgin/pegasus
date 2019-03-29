@@ -68,5 +68,15 @@
     "ANDROID": {
       "id": "com.pozitron.pegasus:id/layout_booking_total_amount_button_action"
     }
+  },
+  "USERNAME": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/activity_home_text_view_member_full_name"
+    }
+  },
+  "LOGOUT": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/list_item_profile_logout_textview_title"
+    }
   }
 }
