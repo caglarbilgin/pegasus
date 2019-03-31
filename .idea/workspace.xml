@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/log/ingMobilLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/ingMobilLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapJSON/click_element.json" beforeDir="false" afterPath="$PROJECT_DIR$/mapJSON/click_element.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/android/TicketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/TicketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/android/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/android/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/android/TicketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/android/TicketPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +69,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/util/Context.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="768">
@@ -79,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/android/TicketPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="45" />
+            <state relative-caret-position="470">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -193,11 +195,6 @@
             <path>
               <item name="pegasusTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pegasusTest" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pegasusTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pegasusTest" type="462c0819:PsiDirectoryNode" />
               <item name="mapJSON" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,7 +268,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554025488449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554025737409" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -439,7 +436,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7246622" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" sideWeight="0.27533785" side_tool="true" weight="0.17460318" />
@@ -455,7 +451,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
@@ -842,13 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/android/TicketPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapJSON/click_element.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -863,6 +852,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/android/TicketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
         </state>
       </provider>
     </entry>
