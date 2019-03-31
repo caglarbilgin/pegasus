@@ -10,6 +10,8 @@ import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.Map;
+
 import static mapping.Mapper.foundActivity;
 
 public class Context extends BaseTest {
@@ -41,9 +43,9 @@ public class Context extends BaseTest {
         log.info("incoming element : " + elementText);
         try {
             Assert.assertEquals(elementText, expectedElement.toLowerCase());
-            log.info(elementText + " ve " + expectedElement.toLowerCase() + " elementleri eşit");
+            log.info(elementText + " and " + expectedElement.toLowerCase() + " elements are equal to each other");
         } catch (AssertionError e) {
-            log.info(elementText + " ve " + expectedElement.toLowerCase() + " elementleri eşit değil");
+            log.info(elementText + " and " + expectedElement.toLowerCase() + " elements are not equal to each other !!");
         }
     }
 
@@ -68,7 +70,7 @@ public class Context extends BaseTest {
                 log.info(ticket + "element exists");
                 break;
             } else {
-                log.info(i+1 +". swipe yapılıyor");
+                log.info(i + 1 + ". swipe is being done");
                 Context.swipeUpAccordingToPhoneSize();
             }
 
@@ -80,6 +82,14 @@ public class Context extends BaseTest {
             Context.swipeUpAccordingToPhoneSize();
         }
         log.info(driver.getPageSource());
+    }
+
+    public static void popUpControl(String popUp) {
+        try {
+            driver.findElement(Mapper.foundActivity(MapMethodType.CLICK_ELEMENT, popUp)).click();
+        } catch (Exception e) {
+            log.info("Pop Up does not exist !");
+        }
     }
 }
 

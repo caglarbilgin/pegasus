@@ -67,6 +67,7 @@
   "CONTINUE": {
     "ANDROID": {
       "id": "com.pozitron.pegasus:id/layout_booking_total_amount_button_action"
+
     }
   },
   "USERNAME": {
@@ -77,6 +78,26 @@
   "LOGOUT": {
     "ANDROID": {
       "id": "com.pozitron.pegasus:id/list_item_profile_logout_textview_title"
+    }
+  },
+  "POPUP2": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/layout_tutorial_background_image_view_cancel"
+    }
+  },
+  "BOLBOLARROWCLOSE": {
+    "ANDROID": {
+      "id": "com.pozitron.pegasus:id/layout_login_header_imageview_arrow"
+    }
+  },
+  "BIRTHDATE": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout[3]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+    }
+  },
+  "ERKEKBUTTON": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout[3]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
     }
   }
 }

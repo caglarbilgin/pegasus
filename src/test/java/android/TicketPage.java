@@ -6,7 +6,8 @@ public class TicketPage {
 
     public static void ticket(String from, String to) {
         //pop up close
-        //Context.clickButton("POPUPCLOSE");
+        Context.popUpControl("POPUPCLOSE");
+        Context.popUpControl("POPUP2");
         //click search cheap flight, comes through json file
         Context.clickButton("SEARCHCHEAPFLIGHT");
         //send value to 'FROM' text area, comes through json file
@@ -38,6 +39,17 @@ public class TicketPage {
         //Click business flex button
         Context.clickButton("BUSINESSFLEX");
         //Click continue
+        Context.popUpControl("POPUP2");
+        Context.clickButton("CONTINUE");
+        Context.clickButton("BOLBOLARROWCLOSE");
+        Context.inputText("NAMEFORTICKET", "caglar");
+        Context.inputText("SURNAMEFORTICKET","bilgin");
+        Context.swipeUp(1);
+        Context.clickButton("BIRTHDATE");
+        //buraya date picker gelecek
+        Context.clickButton("ERKEKBUTTON");
+        Context.swipeUp(1);
+        Context.inputText("TC","17356856236");
         Context.clickButton("CONTINUE");
     }
 }

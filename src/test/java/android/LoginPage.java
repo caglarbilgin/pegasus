@@ -6,7 +6,7 @@ public class LoginPage {
 
     public static void loginApp(String phone, String pass) {
         //pop up close
-        //Context.clickButton("POPUPCLOSE");
+        Context.popUpControl("POPUPCLOSE");
         //enter the login page button xpath, comes through json file
         Context.clickButton("LOGINPAGE");
         //send value to username text area, comes through json file
