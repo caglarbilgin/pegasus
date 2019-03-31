@@ -46,6 +46,7 @@ public class TicketPage {
         Context.inputText("SURNAMEFORTICKET","bilgin");
         Context.swipeUp(1);
         Context.clickButton("BIRTHDATE");
+        Context.clickButton("BIRTHDATEOKBUTTON");
         //buraya date picker gelecek
         Context.clickButton("ERKEKBUTTON");
         Context.swipeUp(1);

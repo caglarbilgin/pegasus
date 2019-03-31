@@ -345,3 +345,55 @@
 2019-03-31 10:15:00 INFO  BaseTest:73 - 4. swipe is being done
 2019-03-31 10:15:01 INFO  BaseTest:73 - 5. swipe is being done
 2019-03-31 10:15:02 INFO  BaseTest:70 - TICKETelement exists
+2019-03-31 10:53:29 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-31 10:54:12 INFO  BaseTest:91 - Pop Up does not exist !
+2019-03-31 10:54:14 INFO  BaseTest:21 - text:istanbul
+2019-03-31 10:54:22 INFO  BaseTest:42 - expected element : Istanbul Tümü
+2019-03-31 10:54:22 INFO  BaseTest:43 - incoming element : istanbul tümü
+2019-03-31 10:54:22 INFO  BaseTest:46 - istanbul tümü and istanbul tümü elements are equal to each other
+2019-03-31 10:54:24 INFO  BaseTest:21 - text:adana
+2019-03-31 10:54:33 INFO  BaseTest:42 - expected element : adana
+2019-03-31 10:54:33 INFO  BaseTest:43 - incoming element : adana
+2019-03-31 10:54:33 INFO  BaseTest:46 - adana and adana elements are equal to each other
+2019-03-31 10:54:48 INFO  BaseTest:73 - 1. swipe is being done
+2019-03-31 10:54:50 INFO  BaseTest:73 - 2. swipe is being done
+2019-03-31 10:54:51 INFO  BaseTest:73 - 3. swipe is being done
+2019-03-31 10:54:53 INFO  BaseTest:73 - 4. swipe is being done
+2019-03-31 10:54:54 INFO  BaseTest:73 - 5. swipe is being done
+2019-03-31 10:54:55 INFO  BaseTest:70 - TICKETelement exists
+2019-03-31 10:55:13 INFO  BaseTest:91 - Pop Up does not exist !
+2019-03-31 12:31:33 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-31 12:32:14 INFO  BaseTest:91 - Pop Up does not exist !
+2019-03-31 12:32:16 INFO  BaseTest:21 - text:istanbul
+2019-03-31 12:32:26 INFO  BaseTest:42 - expected element : Istanbul Tümü
+2019-03-31 12:32:26 INFO  BaseTest:43 - incoming element : istanbul tümü
+2019-03-31 12:32:26 INFO  BaseTest:46 - istanbul tümü and istanbul tümü elements are equal to each other
+2019-03-31 12:32:27 INFO  BaseTest:21 - text:adana
+2019-03-31 12:32:37 INFO  BaseTest:42 - expected element : adana
+2019-03-31 12:32:37 INFO  BaseTest:43 - incoming element : adana
+2019-03-31 12:32:37 INFO  BaseTest:46 - adana and adana elements are equal to each other
+2019-03-31 12:32:52 INFO  BaseTest:73 - 1. swipe is being done
+2019-03-31 12:32:53 INFO  BaseTest:73 - 2. swipe is being done
+2019-03-31 12:32:54 INFO  BaseTest:73 - 3. swipe is being done
+2019-03-31 12:32:56 INFO  BaseTest:73 - 4. swipe is being done
+2019-03-31 12:32:57 INFO  BaseTest:73 - 5. swipe is being done
+2019-03-31 12:32:58 INFO  BaseTest:70 - TICKETelement exists
+2019-03-31 12:33:17 INFO  BaseTest:91 - Pop Up does not exist !
+2019-03-31 12:38:26 INFO  BaseTest:33 - *** PLATFORM : null
+2019-03-31 12:39:02 INFO  BaseTest:91 - Pop Up does not exist !
+2019-03-31 12:39:04 INFO  BaseTest:21 - text:istanbul
+2019-03-31 12:39:13 INFO  BaseTest:42 - expected element : Istanbul Tümü
+2019-03-31 12:39:13 INFO  BaseTest:43 - incoming element : istanbul tümü
+2019-03-31 12:39:13 INFO  BaseTest:46 - istanbul tümü and istanbul tümü elements are equal to each other
+2019-03-31 12:39:14 INFO  BaseTest:21 - text:adana
+2019-03-31 12:39:22 INFO  BaseTest:42 - expected element : adana
+2019-03-31 12:39:22 INFO  BaseTest:43 - incoming element : adana
+2019-03-31 12:39:22 INFO  BaseTest:46 - adana and adana elements are equal to each other
+2019-03-31 12:39:38 INFO  BaseTest:73 - 1. swipe is being done
+2019-03-31 12:39:40 INFO  BaseTest:73 - 2. swipe is being done
+2019-03-31 12:39:41 INFO  BaseTest:73 - 3. swipe is being done
+2019-03-31 12:39:50 INFO  BaseTest:73 - 4. swipe is being done
+2019-03-31 12:39:51 INFO  BaseTest:73 - 5. swipe is being done
+2019-03-31 12:39:53 INFO  BaseTest:73 - 6. swipe is being done
+2019-03-31 12:39:54 INFO  BaseTest:70 - TICKETelement exists
+2019-03-31 12:40:12 INFO  BaseTest:91 - Pop Up does not exist !
