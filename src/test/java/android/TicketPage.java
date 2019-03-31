@@ -5,8 +5,9 @@ import util.Context;
 public class TicketPage {
 
     public static void ticket(String from, String to) {
-        //pop up close
+        //pop up close, if it exist
         Context.popUpControl("POPUPCLOSE");
+        //pop up close, if it exist
         Context.popUpControl("POPUP2");
         //click search cheap flight, comes through json file
         Context.clickButton("SEARCHCHEAPFLIGHT");
@@ -34,23 +35,33 @@ public class TicketPage {
         Context.clickButton("SEARCHFLIGHT");
         //Swipe ticket at the bottom of the page
         Context.swipeUpUntilSeeElement("TICKET");
-        //Click ticket at the bottom of the page
+        //click ticket at the bottom of the page
         Context.clickButton("TICKET");
-        //Click business flex button
+        //click business flex button
         Context.clickButton("BUSINESSFLEX");
-        //Click continue
+        //pop up close, if it exist
         Context.popUpControl("POPUP2");
+        //click continue
         Context.clickButton("CONTINUE");
+        //click bol bol arrow button to close
         Context.clickButton("BOLBOLARROWCLOSE");
+        //send value to 'NAMEFORTICKET' from text area, comes through json file
         Context.inputText("NAMEFORTICKET", "caglar");
+        //send value to 'SURNAMEFORTICKET' from text area, comes through json file
         Context.inputText("SURNAMEFORTICKET","bilgin");
+        //one time swipe
         Context.swipeUp(1);
+        //click birtdate button
         Context.clickButton("BIRTHDATE");
+        //select birtdate and ok button
         Context.clickButton("BIRTHDATEOKBUTTON");
-        //buraya date picker gelecek
+        //click gencder
         Context.clickButton("ERKEKBUTTON");
+        //one time swipe
         Context.swipeUp(1);
+        //send value to 'TC' from text ares
         Context.inputText("TC","17356856236");
+        //click continue button
         Context.clickButton("CONTINUE");
     }
 }
