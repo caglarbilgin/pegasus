@@ -5,8 +5,10 @@ import util.Context;
 public class LoginPage {
 
     public static void loginApp(String phone, String pass) {
-        //pop up close
+        ///pop up close, if it exist
         Context.popUpControl("POPUPCLOSE");
+        //pop up close, if it exist
+        Context.popUpControl("POPUP2");
         //enter the login page button xpath, comes through json file
         Context.clickButton("LOGINPAGE");
         //send value to username text area, comes through json file
@@ -18,8 +20,11 @@ public class LoginPage {
     }
 
     public static void logoutApp() {
+        //click username
         Context.clickButton("USERNAME");
+        // 3 times swipe
         Context.swipeUp(3);
+        //click logout button
         Context.clickButton("LOGOUT");
     }
 }
