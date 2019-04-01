@@ -34,7 +34,7 @@ public class TicketPage {
         //click search flight button
         Context.clickButton("SEARCHFLIGHT");
         //Swipe ticket at the bottom of the page
-        Context.swipeUpUntilSeeElement("TICKET", "23:50");
+        Context.swipeUpUntilSeeElement("TICKET", "20:40");
         //click ticket at the bottom of the page
         Context.clickButton("TICKET");
         //click business flex button
@@ -53,6 +53,7 @@ public class TicketPage {
         Context.swipeUp(1);
         //click birtdate button
         Context.clickButton("BIRTHDATE");
+        Context.timesClick("AGE",12);
         //select birtdate and ok button
         Context.clickButton("BIRTHDATEOKBUTTON");
         //click gender

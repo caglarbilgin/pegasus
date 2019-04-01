@@ -87,6 +87,12 @@ public class Context extends BaseTest {
             log.info("Pop Up does not exist !");
         }
     }
+
+    public static void timesClick(String element, int i) {
+        for (int j = 0; j < i; j++) {
+            driver.findElement(Mapper.foundActivity(MapMethodType.CLICK_ELEMENT, element)).click();
+        }
+    }
 }
 
 
