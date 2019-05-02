@@ -1,13 +1,10 @@
 package tests;
 
 import android.LoginPage;
-import android.TicketPage;
 import base.BaseTest;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import util.Context;
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 
@@ -24,6 +21,7 @@ public class LoginTest extends BaseTest {
 
     @org.junit.Test
     public void loginTest() {
+
         LoginPage.loginApp("5542330602 ", "120304");
     }
 
